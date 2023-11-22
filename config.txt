@@ -1,6 +1,6 @@
 # Add the api key to get accses to the data
 API_KEY="3a44d951012d440092f120200232211"
 # Set the option for air gualty
-API_OP="yes"
+API_OP="no"
 # Set the target city
-City="London"
+City="Khartoum"
