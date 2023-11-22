@@ -1,12 +1,11 @@
 #!/bin/bash
 
 # Check if the configuration file exists
-if [ -e "config.txt" ];
-then
-    # Get the user configuration
-    source config.txt
+# Source the configuration file in the same directory
+if [ -e "$(dirname "$0")/config.txt" ]; then
+    source "$(dirname "$0")/config.txt"
 else
-    echo "Configuration file does not exist."
+    echo "Configuration file (config.txt) not found in the same directory."
     exit 1
 fi
 

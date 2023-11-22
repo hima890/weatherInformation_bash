@@ -1,6 +1,8 @@
+# Using Free api from "https://www.weatherapi.com/"
+
 # Add the api key to get accses to the data
-API_KEY="3a44d951012d440092f120200232211"
+API_KEY="<Write-your-key-here>"
 # Set the option for air gualty
 API_OP="no"
 # Set the target city
-City="Khartoum"
+City="<Write-your-city-here>"
