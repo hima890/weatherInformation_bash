@@ -3,4 +3,4 @@ API_KEY="3a44d951012d440092f120200232211"
 # Set the option for air gualty
 API_OP="yes"
 # Set the target city
-City="Khartoum"
+City="London"
